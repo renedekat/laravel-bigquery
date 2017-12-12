@@ -1,10 +1,10 @@
 <?php
 
-namespace SchulzeFelix\BigQuery\Tests\Integration;
+namespace ReneDeKat\BigQuery\Tests\Integration;
 
-use SchulzeFelix\BigQuery\BigQueryFacade;
+use ReneDeKat\BigQuery\BigQueryFacade;
 use Orchestra\Testbench\TestCase as Orchestra;
-use SchulzeFelix\BigQuery\BigQueryServiceProvider;
+use ReneDeKat\BigQuery\BigQueryServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

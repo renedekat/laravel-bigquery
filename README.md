@@ -15,7 +15,7 @@ Using this package you can easily interact with the Google BigQuery API.
 This package can be installed through Composer.
 
 ``` bash
-$ composer require schulzefelix/laravel-bigquery
+$ composer require renedekat/laravel-bigquery
 ```
 
 In Laravel 5.5 the package will autoregister the service provider. In Laravel 5.4 you must install this service provider.
@@ -23,7 +23,7 @@ In Laravel 5.5 the package will autoregister the service provider. In Laravel 5.
 // config/app.php
 'providers' => [
     ...
-    SchulzeFelix\BigQuery\BigQueryServiceProvider::class,
+    ReneDeKat\BigQuery\BigQueryServiceProvider::class,
     ...
 ];
 ```
@@ -34,7 +34,7 @@ In Laravel 5.5 the package will autoregister the facade. In Laravel 5.4 you must
 // config/app.php
 'aliases' => [
     ...
-    'BigQuery' => SchulzeFelix\BigQuery\BigQueryFacade::class,
+    'BigQuery' => ReneDeKat\BigQuery\BigQueryFacade::class,
     ...
 ];
 ```
@@ -43,7 +43,7 @@ In Laravel 5.5 the package will autoregister the facade. In Laravel 5.4 you must
 Optionally, you can publish the config file of this package with this command:
 
 ``` bash
-php artisan vendor:publish --provider="SchulzeFelix\BigQuery\BigQueryServiceProvider"
+php artisan vendor:publish --provider="ReneDeKat\BigQuery\BigQueryServiceProvider"
 ```
 
 The following config file will be published in `config/bigquery.php`

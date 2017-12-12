@@ -1,8 +1,8 @@
 <?php
 
-namespace SchulzeFelix\BigQuery\Tests\Integration;
+namespace ReneDeKat\BigQuery\Tests\Integration;
 
-use SchulzeFelix\BigQuery\Exceptions\InvalidConfiguration;
+use ReneDeKat\BigQuery\Exceptions\InvalidConfiguration;
 
 class BigQueryServiceProviderTest extends TestCase
 {

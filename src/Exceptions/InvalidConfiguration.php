@@ -1,6 +1,6 @@
 <?php
 
-namespace SchulzeFelix\BigQuery\Exceptions;
+namespace ReneDeKat\BigQuery\Exceptions;
 
 use Exception;
 

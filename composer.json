@@ -1,11 +1,11 @@
 {
-    "name": "schulzefelix/laravel-bigquery",
+    "name": "renedemat/laravel-bigquery",
     "type": "library",
     "description": "",
     "keywords": [
         "laravel"
     ],
-    "homepage": "https://github.com/schulzefelix/laravel-bigquery",
+    "homepage": "https://github.com/renedekat/laravel-bigquery",
     "license": "MIT",
     "authors": [
         {
@@ -13,11 +13,16 @@
             "email": "github@schulze.co",
             "homepage": "https://schulze.co",
             "role": "Developer"
+        },
+        {
+            "name": "Rene de Kat",
+            "email": "renedekat@9lives-development.com",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.0",
-        "google/cloud-bigquery": "^0.2.1",
+        "google/cloud-bigquery": "^0.3.1",
         "illuminate/support": "~5.4.0|~5.5.0",
         "madewithlove/illuminate-psr-cache-bridge": "^1.0"
     },
@@ -28,22 +33,22 @@
     },
     "autoload": {
         "psr-4": {
-            "SchulzeFelix\\BigQuery\\": "src"
+            "ReneDeKat\\BigQuery\\": "src"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "SchulzeFelix\\BigQuery\\BigQueryServiceProvider"
+                "ReneDeKat\\BigQuery\\BigQueryServiceProvider"
             ],
             "aliases":{
-                "BigQuery": "SchulzeFelix\\BigQuery\\BigQueryFacade"
+                "BigQuery": "ReneDeKat\\BigQuery\\BigQueryFacade"
             }
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SchulzeFelix\\BigQuery\\Tests\\": "tests"
+            "ReneDeKat\\BigQuery\\Tests\\": "tests"
         }
     },
     "config": {

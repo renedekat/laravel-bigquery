@@ -1,6 +1,6 @@
 <?php
 
-namespace SchulzeFelix\BigQuery;
+namespace ReneDeKat\BigQuery;
 
 use Google\Cloud\BigQuery\BigQueryClient;
 use Madewithlove\IlluminatePsrCacheBridge\Laravel\CacheItemPool;

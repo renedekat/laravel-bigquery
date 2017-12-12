@@ -1,11 +1,11 @@
 <?php
 
-namespace SchulzeFelix\BigQuery;
+namespace ReneDeKat\BigQuery;
 
 use Illuminate\Support\ServiceProvider;
 use Google\Cloud\BigQuery\BigQueryClient;
 use Laravel\Lumen\Application as LumenApplication;
-use SchulzeFelix\BigQuery\Exceptions\InvalidConfiguration;
+use ReneDeKat\BigQuery\Exceptions\InvalidConfiguration;
 use Illuminate\Foundation\Application as LaravelApplication;
 
 class BigQueryServiceProvider extends ServiceProvider

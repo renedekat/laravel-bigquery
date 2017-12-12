@@ -1,11 +1,11 @@
 <?php
 
-namespace SchulzeFelix\BigQuery;
+namespace ReneDeKat\BigQuery;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \SchulzeFelix\BigQuery\BigQuery
+ * @see \ReneDeKat\BigQuery\BigQuery
  */
 class BigQueryFacade extends Facade
 {
